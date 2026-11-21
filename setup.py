@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-require = ["opencv-python", "scapy"]
+require = ["opencv-python", "scapy", "scipy", "numpy"]
 
 setup(
         name="StegoTool",
